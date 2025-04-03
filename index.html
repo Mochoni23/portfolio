@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mochoni's Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="#home" class="logo">
+                <img src="pictures/logo.jpg" alt="ABIMO Logo" class="logo-image">
+            </a>
+            <div class="menuToggle" id="mobile-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about-me">ABOUT</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#education">EDUCATION</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Hello, I'm <span style="color: blue;">Abigael Mochoni</span></h1>
+            <h2>A <span style="color: blue;">Web</span> Developer And <span style="color: blue;">Data</span> Analyst</h2>
+            <ul class="social-links">
+                <li><a href="#instagram"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#linkedin"><i class="fab fa-linkedin"></i></a></li>
+                <li><a href="#tiktok"><i class="fab fa-tiktok"></i></a></li>
+                <li><a href="#telegram"><i class="fab fa-telegram"></i></a></li>
+                <li><a href="#github"><i class="fab fa-github"></i></a></li>
+            </ul>
+            <div class="button-container">
+                <a href="files/Abigael_Mochoni_CV.pdf" id="download-cv" download="Abigael_Mochoni_CV" class="btn">
+                    <i class="fas fa-download"></i>
+                    <span>Download CV</span>
+                </a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="pictures/one2.jpg" alt="Profile picture" class="profile-image">
+        </div>
+    </section>
+
+   <!-- About Me Section -->
+<section id="about-me">
+    <h2 class="section-title" style="margin: 50px auto;">About Me</h2>
+    <div class="about-container">
+        <!-- Left Side - Image -->
+        <div class="about-image">
+            <img src="pictures/one2.JPG" alt="Abigael Mochoni" class="profile-about-image">
+        </div>
+        
+        <!-- Right Side - Cards -->
+        <div class="about-cards">
+            <!-- Card 1 -->
+            <div class="about-card">
+                <div class="card-content">
+                    <h2 style="color: var(--accent-color);">WHO AM I</h2>
+                    <p>I am a Computer Science and Statistics graduate with a passion for solving complex problems through technology and data analysis. 
+                    My academic background has equipped me with strong programming skills, statistical modeling expertise, and a deep understanding of data-driven decision-making.</p>
+                </div>
+            </div>
+            
+            <!-- Card 2 -->
+            <div class="about-card">
+                <div class="card-content">
+                    <h2 style="color: var(--accent-color);">WHAT I DO</h2>
+                    <p>I specialize in web development, data visualization, and statistical analysis. I have experience working with programming languages such as 
+                    <strong>Python, JavaScript, R, Nvivo, Excel, SPSS, STATA, and SQL</strong>, and I am proficient in frameworks like <strong>React</strong> and <strong>Django</strong>.</p>
+                </div>
+            </div>
+            
+            <!-- Card 3 -->
+            <div class="about-card">
+                <div class="card-content">
+                    <h2 style="color: var(--accent-color);">WHAT I OFFER</h2>
+                    <p>I am passionate about creating innovative solutions, whether it's building responsive websites, analyzing data to uncover insights, or automating workflows. 
+                    I am always eager to learn new technologies and take on challenging projects.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="section-title" style="margin: 50px auto;">Skills</h2>
+        <div class="skills-container">
+            <!-- Data Analysis Skills -->
+            <div class="skill">
+                <i class="fab fa-python skill-icon" style="color: #3776AB;"></i>
+                <p>Python</p>
+                <div class="skill-description">
+                    <strong>Data Analysis:</strong> Pandas, NumPy, SciPy for data manipulation and statistical analysis<br>
+                    <strong>Web Dev:</strong> Django, Flask backend development
+                </div>
+            </div>
+            
+            <div class="skill">
+                <i class="fas fa-chart-bar skill-icon" style="color: #1E90FF;"></i>
+                <p>STATA</p>
+                <div class="skill-description">
+                    Statistical software for data management, analysis, and visualization<br>
+                    Specialized in econometrics and biomedical statistics
+                </div>
+            </div>
+            
+            <div class="skill">
+                <i class="fas fa-database skill-icon" style="color: #FF4500;"></i>
+                <p>SPSS</p>
+                <div class="skill-description">
+                    Advanced statistical analysis including predictive analytics<br>
+                    Survey data analysis and complex sampling
+                </div>
+            </div>
+            
+            <div class="skill">
+                <i class="fas fa-chart-line skill-icon" style="color: #276DC3;"></i>
+                <p>R</p>
+                <div class="skill-description">
+                    Statistical computing and graphics<br>
+                    Data mining and machine learning with caret and tidyverse
+                </div>
+            </div>
+            
+            <div class="skill">
+                <i class="fas fa-project-diagram skill-icon" style="color: #8A2BE2;"></i>
+                <p>NVIVO</p>
+                <div class="skill-description">
+                    Qualitative data analysis software<br>
+                    Coding and theme identification in unstructured data
+                </div>
+            </div>
+            
+            <div class="skill">
+                <i class="fas fa-file-excel skill-icon" style="color: #217346;"></i>
+                <p>Excel</p>
+                <div class="skill-description">
+                    Advanced data analysis with pivot tables and Power Query<br>
+                    Financial modeling and data visualization
+                </div>
+            </div>
+            
+            <!-- Web Development Skills -->
+            <div class="skill">
+                <i class="fab fa-html5 skill-icon" style="color: #E34F26;"></i>
+                <p>HTML</p>
+                <div class="skill-description">
+                    Semantic HTML5 markup<br>
+                    Accessible web structure and SEO fundamentals
+                </div>
+            </div>
+            
+            <div class="skill">
+                <i class="fab fa-css3-alt skill-icon" style="color: #1572B6;"></i>
+                <p>CSS</p>
+                <div class="skill-description">
+                    Responsive design with Flexbox/Grid<br>
+                    CSS animations and modern layout techniques
+                </div>
+            </div>
+            
+            <div class="skill">
+                <i class="fab fa-js skill-icon" style="color: #F7DF1E;"></i>
+                <p>JavaScript</p>
+                <div class="skill-description">
+                    Interactive web applications<br>
+                    Data visualization with Chart.js/D3.js
+                </div>
+            </div>
+            
+            <div class="skill">
+                <i class="fab fa-react skill-icon" style="color: #61DAFB;"></i>
+                <p>React</p>
+                <div class="skill-description">
+                    Component-based UI development<br>
+                    State management with Context API/Redux
+                </div>
+            </div>
+            
+            
+        </div>
+    </section>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2 class="section-title" style="margin: 50px auto;">Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <h3>Multivariate Analysis of STI Risk Factors</h3>
+                <p><strong>AMREC, Nairobi (2023)</strong></p>
+                <ul>
+                    <li>Conducted cross-sectional study to identify risk factors for sexually transmitted infections.</li>
+                    <li>Performed advanced statistical modeling using STATA and R.</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3>Sustainable Tourism Practices Analysis</h3>
+                <p><strong>Technical University of Mombasa (2024)</strong></p>
+                <ul>
+                    <li>Coded and analyzed 23 transcribed audios on sustainable tourism adoption.</li>
+                    <li>Evaluated climate change impacts on tourism using qualitative methods (NVIVO).</li>
+                </ul>
+            </div>
+            <div class="project">
+                <h3>Mobile Data Collection Apps</h3>
+                <p><strong>Freelance</strong></p>
+                <ul>
+                    <li>Developed applications for efficient field data gathering.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2 class="section-title" style="margin: 50px auto;">Education</h2>
+        <div class="education-container">
+            <div class="education-item">
+                <h3>BSc in Statistics & Computer Science</h3>
+                <p><strong>Technical University of Mombasa</strong> | 2020 – 2024</p>
+            </div>
+            <div class="education-item">
+                <h3>Kenya Certificate of Secondary Education (KCSE)</h3>
+                <p><strong>Sigoti Complex Girls High School</strong> | 2014 – 2019</p>
+            </div>
+            <div class="education-item">
+                <h3>Certifications</h3>
+                <ul>
+                    <li>Good Clinical Practice (2023)</li>
+                    <li>STATA, R, SPSS, Python, NVIVO</li>
+                    <li>Proposal Writing</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title" style="margin: 50px auto;">Contact</h2>
+    <div class="contact-info">
+        <h3>Contact Information</h3>
+        <ul class="contact-details">
+            <li><i class="fas fa-envelope"></i> <a href="mailto:abigaelmochoni24@gmail.com">abigaelmochoni24@gmail.com</a></li>
+            <li><i class="fas fa-phone"></i> <a href="tel:+25411547930">+254 115 479 30</a></li>
+            <li><i class="fas fa-map-marker-alt"></i> Nairobi, Kenya</li>
+        </ul>
+    </div>
+    <div class="social-media">
+        <h3>Follow Me</h3>
+    <ul class="footer-links">
+        <li><a href="https://instagram.com" target="_blank" id="instagram"><i class="fab fa-instagram"></i></a></li>
+        <li><a href="https://linkedin.com" target="_blank" id="linkedin"><i class="fab fa-linkedin"></i></a></li>
+        <li><a href="https://tiktok.com" target="_blank" id="tiktok"><i class="fab fa-tiktok"></i></a></li>
+        <li><a href="https://telegram.org" target="_blank" id="telegram"><i class="fab fa-telegram"></i></a></li>
+        <li><a href="https://github.com/" target="_blank" id="github"><i class="fab fa-github"></i></a></li>
+    </ul>
+</div>
+        <div class="contact-container">
+            <div class="contact-form">
+                <h3>Get in Touch</h3>
+                <form action="https://formspree.io/f/your-form-id" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+        
+        
+    </section>
+   <footer id="footer">
+        <p>&copy; 2025 Abigael Mochoni. All rights reserved.</p>
+        <p>Designed by Abigael Mochoni</p>
+        
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
