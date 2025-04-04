@@ -69,6 +69,11 @@ body {
     color: #00bcd4;
     background-color: rgba(255, 255, 255, 0.1);
 }
+.menuToggle{
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+}
 
 /* Hero Section */
 #home {
@@ -100,6 +105,7 @@ body {
     filter: grayscale(0.2) contrast(1.1);
     animation: glow 1.5s ease-in-out infinite alternate;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.5), 0 0 40px rgba(255, 255, 255, 0.5);
+    margin-right: 50px;
 }
 
 .hero-content {
@@ -153,6 +159,16 @@ body {
 }
 
 /* About Me Section */
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 50px 0;
+    color: darkblue;
+}
+.section-title span {
+    color: #00bcd4;
+    font-weight: bold;
+}
 #about-me {
     position: relative;
     width: 100%;
